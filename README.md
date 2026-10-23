@@ -1,6 +1,6 @@
 <h1 align="center">Raúl Ruiz</h1>
 
-<h3 align="center">AI Engineer · Federated Learning · Privacy-Preserving Machine Learning</h3>
+<h3 align="center">AI Engineer · Federated Learning · FDE</h3>
 
 <p align="center"><em>I build AI systems that are not only accurate, but inspectable and reproducible.</em></p>
 
