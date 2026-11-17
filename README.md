@@ -49,16 +49,38 @@ In a controlled five-image experiment, clipping plus noise reduced mean best-ora
 - **[Valencian GDP Prediction](https://github.com/Ryo-936hz/valencian-gdp-prediction)** — NLP and time-series modelling with leakage-aware validation.
 - **[Mini Compiler with Flex & Bison](https://github.com/Ryo-936hz/mini-compiler-flex-bison)** — Lexical, syntactic and semantic analysis, type checking and code generation.
 
-## Technical toolkit
+## Toolbox
 
-| Area | Tools and methods |
-| --- | --- |
-| Agentic AI | LangChain, LangGraph, LangSmith, OpenAI API, Qwen, Ollama, RAG, multi-agent orchestration |
-| Backend & systems | Python, FastAPI, Pydantic, SQLAlchemy, Docker, Git, Linux |
-| Machine learning | PyTorch, TensorFlow, scikit-learn, OpenCV, Flower |
-| Cloud | Microsoft Azure, Azure Machine Learning |
-| Evaluation & privacy | Gradient inversion, label inference, defense ablations, reproducible experiments |
-| Software foundations | C, C++, distributed systems, system design |
+**Languages and backend**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+
+**Agentic AI**  
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-165C46?style=flat-square&logo=langgraph&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-2C6E49?style=flat-square)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-222222?style=flat-square&logo=ollama&logoColor=white)
+![Qwen](https://img.shields.io/badge/Qwen-615CED?style=flat-square)
+
+**Machine learning and privacy**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Flower](https://img.shields.io/badge/Flower-6C4CE5?style=flat-square)
+
+**Cloud and delivery**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=flat-square)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white)
+
+**Methods:** RAG · multi-agent orchestration · gradient inversion · label inference · defense ablations · reproducible ML evaluation
 
 ## Education & languages
 
@@ -67,11 +89,13 @@ In a controlled five-image experiment, clipping plus noise reduced mean best-ora
 **Languages:** English · Spanish · Chinese (basic) · Valencian/Catalan
 
 <details>
-<summary><strong>Resumen en español</strong></summary>
+<summary><strong>中文简介</strong></summary>
 
-Soy graduado en Ingeniería Informática por la Universidad de Alicante, con especialidad en Computación. Trabajo de forma independiente desarrollando automatizaciones y sistemas de agentes de IA para empresas.
+我毕业于西班牙阿利坎特大学，获得计算机工程学位，专攻计算方向。目前，我独立为企业开发业务流程自动化、AI 智能体和多智能体系统。
 
-Aplico un enfoque de Forward Deployed Engineering: trabajo directamente con el cliente para comprender su negocio y sus procesos, diseñar la solución, elegir el stack y construir el sistema. Mi experiencia incluye automatización con LLMs en NTT DATA, el sistema multiagente FlameLab SI para NASA Space Apps y un Trabajo de Fin de Grado sobre privacidad y seguridad en aprendizaje federado.
+我采用前线部署工程（Forward Deployed Engineering，FDE）的工作方式：直接与客户合作，了解业务运作和现有流程，设计解决方案，选择技术栈，并完成系统开发。
+
+我曾在 NTT DATA 使用 Microsoft Azure、Azure Machine Learning、大语言模型和 OpenAI API 开展流程自动化工作。在 NASA Space Apps Challenge 的 Flame in Freefall 赛题中，我带领六人团队开发了 FlameLab SI，负责方案构思、系统架构、技术选型、初始代码框架和多智能体系统实现。我的本科毕业论文研究联邦学习中的隐私与安全，重点包括图像重建攻击、标签推断，以及裁剪和高斯噪声防御的实验评估。
 
 </details>
 
