@@ -7,47 +7,20 @@
   <a href="mailto:raruizflores@gmail.com">Email</a>
 </p>
 
-I build process automations, AI agents and multi-agent systems for businesses. I work directly with clients to understand how their business operates, map their workflows, design the solution, select the stack and build the system.
+I build **AI agents, multi-agent systems and business automations**, working directly with clients from workflow discovery to implementation — a **Forward Deployed Engineering (FDE)** approach.
 
-My approach is **Forward Deployed Engineering (FDE)**: stay close to the business problem and carry that understanding into hands-on implementation.
+**Independent AI Engineer** · July 2026–present  
+**Previously:** AI Engineer intern at **NTT DATA** · Azure, Azure ML and OpenAI API for process automation.
 
-I'm a **Computer Engineering graduate from the University of Alicante**, specialising in **Computing**. Alongside applied AI, I study privacy leakage in federated learning through reconstruction attacks, label inference and experimental defenses.
+## Featured work
 
-## Current work
-
-**Independent AI Engineer — Agentic Systems & Automation**  
-July 2026–present
-
-- Work with clients to understand business processes and identify opportunities for automation.
-- Translate workflow requirements into system designs and technology choices.
-- Build automations, agentic applications and multi-agent systems.
-
-Previously, I worked as an **Artificial Intelligence Engineer intern at NTT DATA** (December 2025–March 2026), using Microsoft Azure, Azure Machine Learning, LLMs and the OpenAI API for process automation.
-
-## Selected projects
-
-### [FlameLab SI — Multi-Agent Scientific Research](https://github.com/Ryo-936hz/Flame-in-Freefall)
-
-Built for **NASA's Space Apps Challenge — Flame in Freefall**. I led a six-person team, developed the concept, designed the architecture, selected the stack, built the initial codebase and implemented the multi-agent system.
-
-Five agents coordinate research: **Coordinator, Scout, Analyst, Critic and Writer**. Shared research state, validated outputs and revision loops preserve context and source references, with human approval before the final report.
-
-**Stack:** Python · FastAPI · Pydantic · SQLAlchemy · LangChain · LangGraph · LangSmith · Qwen/Ollama · React · TypeScript · Docker
-
-### [Bachelor's Thesis — Privacy & Security in Federated Learning](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference)
-
-An experimental framework for studying image reconstruction and label inference from gradients and local model updates. I evaluated FedAvg and FedSGD, gradient and update inversion, and clipping and Gaussian-noise defenses.
-
-In a controlled five-image experiment, clipping plus noise reduced mean best-oracle reconstruction PSNR from **28.35 to 13.51 dB**, while label inference still succeeded on all five images. The result shows why reduced visual leakage must be evaluated separately from label privacy.
-
-**Stack:** Python · PyTorch · Flower · CIFAR-10 · ResNet-18  
-[Experiment setup and results](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference/blob/main/research/notes/defense_attack_samples0_4_none_vs_clipnoise.md)
-
-### More engineering work
-
-- **[Chest X-Ray Classification Benchmark](https://github.com/Ryo-936hz/chest-xray-classification-benchmark)** — Image-classification experiments with transfer learning, Grad-CAM and statistical evaluation. Research use only.
-- **[Valencian GDP Prediction](https://github.com/Ryo-936hz/valencian-gdp-prediction)** — NLP and time-series modelling with leakage-aware validation.
-- **[Mini Compiler with Flex & Bison](https://github.com/Ryo-936hz/mini-compiler-flex-bison)** — Lexical, syntactic and semantic analysis, type checking and code generation.
+| Project | What I built | Stack and evidence |
+| --- | --- | --- |
+| [FlameLab SI](https://github.com/Ryo-936hz/Flame-in-Freefall) | Multi-agent research system for **NASA Space Apps**. Led a six-person team; designed the architecture, selected the stack and built the initial codebase and agent workflow. | LangGraph · LangChain · LangSmith · Qwen/Ollama · FastAPI · 5 agents, shared state, revision loops and human approval |
+| [Federated Learning Privacy](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference) | **Bachelor’s thesis:** image reconstruction and label inference from gradients and model updates; evaluated clipping and noise defenses. | Python · PyTorch · Flower · CIFAR-10 · ResNet-18 · [Attack/defense experiments](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference/blob/main/research/notes/defense_attack_samples0_4_none_vs_clipnoise.md) |
+| [Chest X-Ray Benchmark](https://github.com/Ryo-936hz/chest-xray-classification-benchmark) | Image-classification benchmark with transfer learning, explainability and statistical evaluation. Research use only. | TensorFlow · MobileNetV2 · Grad-CAM · Random Forest · 10-fold cross-validation |
+| [Valencian GDP Prediction](https://github.com/Ryo-936hz/valencian-gdp-prediction) | NLP and time-series models exploring signals for regional GDP, with leakage-aware validation. | Python · NLP · LSTM · Expanding-window evaluation · Wilcoxon tests |
+| [Mini Compiler](https://github.com/Ryo-936hz/mini-compiler-flex-bison) | Compiler with lexical, syntactic and semantic analysis, type checking and code generation. | C/C++ · Flex · Bison · GNU Make · Regression tests |
 
 ## Toolbox
 
@@ -80,25 +53,18 @@ In a controlled five-image experiment, clipping plus noise reduced mean best-ora
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white)
 
-**Methods:** RAG · multi-agent orchestration · gradient inversion · label inference · defense ablations · reproducible ML evaluation
-
 ## Education & languages
 
-**Computer Engineering — University of Alicante**, completed in 2026. Specialisation in Computing.
+**Computer Engineering graduate · University of Alicante · 2026**  
+Specialisation in Computing.
 
-**Languages:** English · Spanish · Chinese (basic) · Valencian/Catalan
+English · Spanish · Chinese (basic) · Valencian/Catalan
 
 <details>
 <summary><strong>中文简介</strong></summary>
 
-我毕业于西班牙阿利坎特大学，获得计算机工程学位，专攻计算方向。目前，我独立为企业开发业务流程自动化、AI 智能体和多智能体系统。
+我是阿利坎特大学计算机工程专业毕业生，专攻计算方向。目前独立为企业开发 AI 智能体、多智能体系统和业务自动化，采用 FDE 的工作方式，从理解客户业务流程到设计并实现系统。
 
-我采用前线部署工程（Forward Deployed Engineering，FDE）的工作方式：直接与客户合作，了解业务运作和现有流程，设计解决方案，选择技术栈，并完成系统开发。
-
-我曾在 NTT DATA 使用 Microsoft Azure、Azure Machine Learning、大语言模型和 OpenAI API 开展流程自动化工作。在 NASA Space Apps Challenge 的 Flame in Freefall 赛题中，我带领六人团队开发了 FlameLab SI，负责方案构思、系统架构、技术选型、初始代码框架和多智能体系统实现。我的本科毕业论文研究联邦学习中的隐私与安全，重点包括图像重建攻击、标签推断，以及裁剪和高斯噪声防御的实验评估。
+我曾在 NTT DATA 从事 AI 流程自动化工作，并带领六人团队为 NASA Space Apps Challenge 开发 FlameLab SI。本科毕业论文研究联邦学习中的重建攻击、标签推断与隐私防御。
 
 </details>
-
----
-
-For collaboration on agentic AI, business automation or ML privacy, reach me on [LinkedIn](https://www.linkedin.com/in/ra%C3%BAl-ruiz-flores/) or by [email](mailto:raruizflores@gmail.com).
