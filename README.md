@@ -1,97 +1,80 @@
 <h1 align="center">Raúl Ruiz</h1>
 
-<h3 align="center">AI Engineer · Federated Learning · FDE</h3>
-
-<p align="center"><em>I build AI systems that are not only accurate, but inspectable and reproducible.</em></p>
+<p align="center"><strong>AI Engineer · Agentic Systems & Automation · Forward Deployed Engineering</strong></p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ra%C3%BAl-ruiz-flores/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:raruizflores@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/ra%C3%BAl-ruiz-flores/">LinkedIn</a> ·
+  <a href="mailto:raruizflores@gmail.com">Email</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/English-2F81F7?style=flat-square" alt="English">
-  <img src="https://img.shields.io/badge/Español-DA291C?style=flat-square" alt="Español">
-  <img src="https://img.shields.io/badge/中文-DE2910?style=flat-square" alt="中文">
-</p>
+I build process automations, AI agents and multi-agent systems for businesses. I work directly with clients to understand how their business operates, map their workflows, design the solution, select the stack and build the system.
 
-## Engineering focus
+My approach is **Forward Deployed Engineering (FDE)**: stay close to the business problem and carry that understanding into hands-on implementation.
 
-| Privacy & security | Reproducible evidence | Responsible AI |
-| :--- | :--- | :--- |
-| I evaluate what models and distributed updates can reveal—not only what they predict. | I favour deterministic pipelines, leakage-aware validation, statistical comparisons and traceable results. | I document intended use, limitations and safeguards, especially for privacy-sensitive and medical ML. |
+I'm a **Computer Engineering graduate from the University of Alicante**, specialising in **Computing**. Alongside applied AI, I study privacy leakage in federated learning through reconstruction attacks, label inference and experimental defenses.
 
-## About me
+## Current work
 
-- **Computer Engineering graduate** from the **University of Alicante**.
-- Professional experience as an **Artificial Intelligence Engineer at NTT DATA**, working with Microsoft Azure, Azure Machine Learning, LLMs, the OpenAI API, process automation, prompt engineering and technical documentation.
-- Focused on **federated learning, ML privacy and security, computer vision, NLP and responsible AI**.
-- I enjoy taking technical questions from experiment design to tested code, interpretable results and clear documentation.
+**Independent AI Engineer — Agentic Systems & Automation**  
+July 2026–present
 
-## Featured work
+- Work with clients to understand business processes and identify opportunities for automation.
+- Translate workflow requirements into system designs and technology choices.
+- Build automations, agentic applications and multi-agent systems.
 
-| Project | What I built | Stack and evidence |
-| :--- | :--- | :--- |
-| **[Federated Learning Privacy & Security](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference)** | An experimental study of reconstruction attacks and label inference from gradients and local model updates, including clipping and Gaussian-noise defenses. | Python · PyTorch · Flower · CIFAR-10 · ResNet-18 · FedAvg/FedSGD · visual attack and defense comparisons |
-| **[Chest X-Ray Classification Benchmark](https://github.com/Ryo-936hz/chest-xray-classification-benchmark)** | A reproducible pneumonia-classification benchmark with explainability, transfer learning, deep embeddings and a framework-independent FedAvg simulation. | TensorFlow · MobileNetV2 · Grad-CAM · Random Forest · stratified 10-fold CV · paired Wilcoxon tests · research use only |
-| **[Valencian GDP Prediction](https://github.com/Ryo-936hz/valencian-gdp-prediction)** | Leakage-aware forecasting of quarterly regional GDP variation from Spanish tweets, engagement signals and lagged economic information. | Python · NLP · MLP/LSTM/BiLSTM · expanding-window validation · fold-local preprocessing · Wilcoxon tests |
-| **[Mini Compiler with Flex & Bison](https://github.com/Ryo-936hz/mini-compiler-flex-bison)** | A compiler front end with lexical, syntactic and semantic analysis, nested scopes, static type checking, diagnostics and executable-code generation. | C/C++ · Flex · Bison · GNU Make · m2r VM · end-to-end regression suite |
+Previously, I worked as an **Artificial Intelligence Engineer intern at NTT DATA** (December 2025–March 2026), using Microsoft Azure, Azure Machine Learning, LLMs and the OpenAI API for process automation.
 
-## Professional experience
+## Selected projects
 
-| Role | Highlights |
-| :--- | :--- |
-| **NTT DATA — Artificial Intelligence Engineer (Internship)** · Dec 2025 – Mar 2026 | Microsoft Azure and Azure ML; responsible AI; LLM and OpenAI API workflows; process automation; prompt engineering; technical documentation. |
+### [FlameLab SI — Multi-Agent Scientific Research](https://github.com/Ryo-936hz/Flame-in-Freefall)
 
-## Toolbox
+Built for **NASA's Space Apps Challenge — Flame in Freefall**. I led a six-person team, developed the concept, designed the architecture, selected the stack, built the initial codebase and implemented the multi-agent system.
 
-**AI and research**
+Five agents coordinate research: **Coordinator, Scout, Analyst, Critic and Writer**. Shared research state, validated outputs and revision loops preserve context and source references, with human approval before the final report.
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Flower](https://img.shields.io/badge/Flower-Federated_Learning-6C4CE5?style=flat-square)
+**Stack:** Python · FastAPI · Pydantic · SQLAlchemy · LangChain · LangGraph · LangSmith · Qwen/Ollama · React · TypeScript · Docker
 
-**Applied AI and cloud**
+### [Bachelor's Thesis — Privacy & Security in Federated Learning](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference)
 
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure ML](https://img.shields.io/badge/Azure_Machine_Learning-0078D4?style=flat-square)
-![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![LLMs](https://img.shields.io/badge/Large_Language_Models-111827?style=flat-square)
-![Automation](https://img.shields.io/badge/Process_Automation-0F766E?style=flat-square)
+An experimental framework for studying image reconstruction and label inference from gradients and local model updates. I evaluated FedAvg and FedSGD, gradient and update inversion, and clipping and Gaussian-noise defenses.
 
-**Languages and systems**
+In a controlled five-image experiment, clipping plus noise reduced mean best-oracle reconstruction PSNR from **28.35 to 13.51 dB**, while label inference still succeeded on all five images. The result shows why reduced visual leakage must be evaluated separately from label privacy.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+**Stack:** Python · PyTorch · Flower · CIFAR-10 · ResNet-18  
+[Experiment setup and results](https://github.com/Ryo-936hz/federated-learning-privacy-reconstruction-inference/blob/main/research/notes/defense_attack_samples0_4_none_vs_clipnoise.md)
+
+### More engineering work
+
+- **[Chest X-Ray Classification Benchmark](https://github.com/Ryo-936hz/chest-xray-classification-benchmark)** — Image-classification experiments with transfer learning, Grad-CAM and statistical evaluation. Research use only.
+- **[Valencian GDP Prediction](https://github.com/Ryo-936hz/valencian-gdp-prediction)** — NLP and time-series modelling with leakage-aware validation.
+- **[Mini Compiler with Flex & Bison](https://github.com/Ryo-936hz/mini-compiler-flex-bison)** — Lexical, syntactic and semantic analysis, type checking and code generation.
+
+## Technical toolkit
+
+| Area | Tools and methods |
+| --- | --- |
+| Agentic AI | LangChain, LangGraph, LangSmith, OpenAI API, Qwen, Ollama, RAG, multi-agent orchestration |
+| Backend & systems | Python, FastAPI, Pydantic, SQLAlchemy, Docker, Git, Linux |
+| Machine learning | PyTorch, TensorFlow, scikit-learn, OpenCV, Flower |
+| Cloud | Microsoft Azure, Azure Machine Learning |
+| Evaluation & privacy | Gradient inversion, label inference, defense ablations, reproducible experiments |
+| Software foundations | C, C++, distributed systems, system design |
 
 ## Education & languages
 
-- **Computer Engineering — University of Alicante**, completed in 2026.
-- **Languages:** Spanish · Valencian/Catalan · English · Chinese (basic).
+**Computer Engineering — University of Alicante**, completed in 2026. Specialisation in Computing.
+
+**Languages:** English · Spanish · Chinese (basic) · Valencian/Catalan
 
 <details>
 <summary><strong>Resumen en español</strong></summary>
 
-Soy ingeniero de inteligencia artificial y graduado en Ingeniería Informática por la Universidad de Alicante, con experiencia profesional en NTT DATA. Me centro en IA responsable, aprendizaje federado, privacidad y seguridad en machine learning, visión por computador y NLP. Valoro especialmente los experimentos reproducibles, la evaluación rigurosa y una documentación técnica clara.
+Soy graduado en Ingeniería Informática por la Universidad de Alicante, con especialidad en Computación. Trabajo de forma independiente desarrollando automatizaciones y sistemas de agentes de IA para empresas.
 
-</details>
-
-<details>
-<summary><strong>中文简介</strong></summary>
-
-我是一名人工智能工程师，毕业于阿利坎特大学计算机工程专业，并拥有在 NTT DATA 的专业经验。我的主要方向包括负责任的人工智能、联邦学习、机器学习隐私与安全、计算机视觉和自然语言处理。我重视可复现的实验、严谨的评估和清晰的技术文档。
+Aplico un enfoque de Forward Deployed Engineering: trabajo directamente con el cliente para comprender su negocio y sus procesos, diseñar la solución, elegir el stack y construir el sistema. Mi experiencia incluye automatización con LLMs en NTT DATA, el sistema multiagente FlameLab SI para NASA Space Apps y un Trabajo de Fin de Grado sobre privacidad y seguridad en aprendizaje federado.
 
 </details>
 
 ---
 
-<p align="center">
-  If you are working on AI systems, federated learning, privacy-preserving ML or applied machine learning, feel free to
-  <a href="https://www.linkedin.com/in/ra%C3%BAl-ruiz-flores/">connect on LinkedIn</a>
-  or <a href="mailto:raruizflores@gmail.com">send me an email</a>.
-</p>
+For collaboration on agentic AI, business automation or ML privacy, reach me on [LinkedIn](https://www.linkedin.com/in/ra%C3%BAl-ruiz-flores/) or by [email](mailto:raruizflores@gmail.com).
